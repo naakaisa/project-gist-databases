@@ -13,5 +13,6 @@ class Gist(object):
         self.comments = gist[10]
         self.comments_url = gist[11]
 
+
     def __str__(self):
         return 'Gist: {}'.format(self.github_id)
